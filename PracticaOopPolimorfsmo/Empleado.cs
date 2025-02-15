@@ -18,14 +18,6 @@ namespace PracticaOopPolimorfsmo
          this.apellido = apellido;   
          this.seguroSocial = seguroSocial;
         }
-        public String Nombre
-        { get { return nombre; } }
-
-        public String Apellido
-        { get { return apellido; }}
-
-        public String SeguroSocial
-        { get { return seguroSocial; }}
 
         public override string ToString()
         {
